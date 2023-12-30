@@ -1,1 +1,54 @@
+body {
+  background-color: blue;
+}
 
+#text {
+  background-color: black;
+  color: lightgreen;
+  padding: 10px;
+  font-size: 30px;
+}
+
+#game {
+  max-width: 700px;
+  max-height: 400px;
+  background-color: lightgreen;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#controls {
+  border: 1px black solid;
+  padding: 5px;
+}
+
+#stats {
+  border: 5px black solid;
+  border-radius: 10px;
+  padding: 5px;
+  color: yellow;
+
+
+}
+
+#opsStats {
+  display: none;
+  border: 1px black solid;
+  color: white;
+  padding: 5px;
+  background-color: red;
+}
+
+.stat {
+  padding-right: 10px;
+  font-size: 50px;
+
+}
+
+button {
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: red;
+  background-color: black;
+}
